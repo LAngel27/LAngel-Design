@@ -36,7 +36,8 @@ button {
 
 .header {
   width: 100%;
-  height: 20vh;
+  padding: 6rem 0;
+  height: 6rem;
   border: solid red 1px none;
   overflow: hidden;
   background: linear-gradient(130deg, rgba(34, 45, 186, 0.6699054622) 45%, rgba(79, 49, 82, 0.6155637255) 65%, rgba(115, 69, 69, 0.5418942577) 86%);
@@ -44,6 +45,7 @@ button {
 .header-container {
   border: solid red 1px none;
   width: 90%;
+  max-width: 1000px;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -59,22 +61,21 @@ button {
 }
 .header-navbar__item__link {
   border: solid red 1px none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: white;
   font-family: "Montserrat", sans-serif;
   margin: 0 1rem;
-  letter-spacing: 0.2rem;
 }
 .header .header-logo {
   border: solid red 1px none;
   margin: 0;
 }
 .header-logo__img {
-  height: 25rem;
+  height: 21rem;
 }
 .header .header-button {
   height: 3.5rem;
-  width: 22rem;
+  width: 15rem;
   border: solid red 1px none;
 }
 .header-button__btn {
@@ -116,7 +117,8 @@ button {
   z-index: 1;
 }
 .main-container {
-  max-width: 90%;
+  width: 90%;
+  max-width: 1000px;
   border: solid red 1px none;
   margin: 0 auto;
   height: 100%;
@@ -168,7 +170,6 @@ button {
 .service {
   width: 100%;
   border: solid red 1px none;
-  height: 80vh;
   margin-bottom: 4rem;
 }
 .service__title {
@@ -181,8 +182,8 @@ button {
 }
 .service-container {
   width: 90%;
+  max-width: 1000px;
   margin: 2rem auto;
-  height: 40%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -198,7 +199,7 @@ button {
   font-size: 1.2rem;
   letter-spacing: 0.5rem;
   font-weight: 600;
-  text-align: center;
+  text-align: start;
   line-height: 2rem;
   color: #2e2d2d;
 }
@@ -221,11 +222,12 @@ button {
 }
 
 .design {
-  height: 85vh;
+  height: 55rem;
   border: solid red 1px none;
   position: relative;
   z-index: 1;
   margin-top: 2.5rem;
+  width: 100%;
 }
 .design-image {
   position: absolute;
@@ -246,18 +248,20 @@ button {
   position: absolute;
   z-index: 3;
   border: solid red 1px none;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
   flex-wrap: wrap;
-  margin: 0 auto;
   align-items: center;
+  overflow: hidden;
 }
 .design .design-container__icon__left {
   font-size: 3.8rem;
-  border: solid red 1px none;
+  border: solid red 1px;
   align-items: center;
   display: flex;
-  padding-left: 1.5rem;
   flex-grow: 1;
 }
 .design .design-container__icon__right {
@@ -265,14 +269,13 @@ button {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  border: solid red 1px none;
-  padding-right: 1.5rem;
-  flex-grow: 2;
+  border: solid red 1px;
+  width: 20rem;
 }
 .design .design-container__user {
-  border: solid red 1px none;
+  border: solid red 1px;
   width: 50rem;
-  flex-grow: 1;
+  flex-grow: 3;
 }
 .design .design-container__user__img {
   border: solid red 1px none;
@@ -327,37 +330,42 @@ button {
 }
 
 .briefcase {
-  height: 90vh;
   border: solid red 1px none;
+  overflow: hidden;
 }
 .briefcase-title {
   text-align: center;
-  margin-top: 3rem;
+  margin: 3rem 0;
   letter-spacing: 0.5rem;
 }
 .briefcase-container {
   width: 90%;
+  max-width: 1000px;
   margin: 3rem auto;
   border: solid red 1px none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  padding: 1rem 0;
 }
-.briefcase-container .td {
+.briefcase-container__list {
   font-weight: 500;
   text-transform: capitalize;
   letter-spacing: 0.3rem;
 }
 .briefcase .briefcase-container-two {
-  height: 80%;
   width: 90%;
+  max-width: 1000px;
   margin: 2rem auto 0 auto;
   border: solid red 1px none;
   display: flex;
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
+  border-radius: 5px;
+  height: 52rem;
+  box-shadow: 2px -13px 15px 1px rgba(0, 0, 0, 0.05);
 }
 .briefcase-container-two__item {
   height: 100%;
@@ -367,11 +375,12 @@ button {
 .briefcase-container-two__item__img {
   height: 100%;
   border: solid red 1px none;
+  width: 100%;
 }
 .briefcase-container-two__item-2 {
   width: 50%;
   border: solid red 1px none;
-  padding: 0 2rem;
+  padding: 0 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -381,14 +390,19 @@ button {
   border: solid red 1px none;
   margin: 1rem 0;
 }
-.briefcase-container-two__item-2 div i {
+.briefcase-container-two__item-2 div .fo {
   border: solid red 1px none;
-  margin: 1rem 2rem;
   font-size: 1.5rem;
   color: gray;
 }
+.briefcase-container-two__item-2 div .fa {
+  border: solid red 1px none;
+  font-size: 1.5rem;
+  color: gray;
+  margin-right: 3.5rem;
+}
 .briefcase-container-two__item-2 div span {
-  border: solid red 1px;
+  border: solid red 1px none;
   font-size: 3rem;
   color: gray;
 }
@@ -401,4 +415,88 @@ button {
   font-size: 1.3rem;
   letter-spacing: 0.5rem;
   line-height: 2rem;
+}
+
+.work {
+  width: 100%;
+  border: solid red 1px;
+  background: linear-gradient(130deg, rgba(34, 45, 186, 0.8071603641) 33%, rgba(79, 49, 82, 0.8547794118) 53%, rgba(111, 62, 64, 0.868785014) 86%);
+}
+.work-title {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  color: white;
+}
+.work-container {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+  border: solid red 1px none;
+  overflow: hidden;
+}
+.work-container__box-1 {
+  border: solid red 1px none;
+  width: 50%;
+  padding: 2rem 5rem;
+  height: 100%;
+}
+.work-container__box-1__title {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 3rem;
+  letter-spacing: 0.5rem;
+}
+.work-container__box-1__description {
+  font-size: 1.2rem;
+  color: white;
+  line-height: 2rem;
+  letter-spacing: 0.5rem;
+  opacity: 95%;
+  margin-bottom: 3rem;
+  text-align: start;
+}
+.work-container__box-1__button {
+  font-size: 1rem;
+  width: 18rem;
+  height: 4rem;
+  border: 1px solid white;
+  display: block;
+  margin-left: 2.5rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.work-container__box-1__map {
+  border: solid red 1px none;
+  height: 20rem;
+  width: 100%;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+.work-container__box-2 {
+  border: solid red 1px none;
+  width: 50%;
+  margin-left: 5rem;
+  padding: 2rem 5rem;
+}
+.work-container__box-2__title {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-align: start;
+  letter-spacing: 0.5rem;
+  color: whitesmoke;
+}
+.work-container__box-2__description {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  text-align: start;
+  line-height: 2rem;
+  color: whitesmoke;
+  letter-spacing: 0.2rem;
 }

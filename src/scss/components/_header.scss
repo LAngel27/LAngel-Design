@@ -2,7 +2,8 @@
 
 .header{
     width: 100%;
-    height: 20vh;
+    padding: 6rem 0;
+    height: 6rem;
     border: $border none;
     overflow: hidden;
     background: linear-gradient(130deg, rgba(34,45,186,0.6699054621848739) 45%, rgba(79,49,82,0.6155637254901961) 65%, rgba(115,69,69,0.5418942577030711) 86%);
@@ -10,6 +11,7 @@
     &-container{
         border: $border none;
         width: 90%;
+        max-width: 1000px;
         margin: 0 auto;
         height: 100%;
         @include display-flex(space-between)
@@ -26,11 +28,10 @@
 
     &-navbar__item__link{
         border: $border none;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: $white;
         font-family: $Montserrat;
         margin:  0 1rem;
-        letter-spacing: 0.2rem;
         
     }
 
@@ -40,12 +41,12 @@
     }
 
     &-logo__img{
-        height: 25rem;
+        height: 21rem;
     }
 
     .header-button{
         height: 3.5rem;
-        width: 22rem;
+        width: 15rem;
         border: $border none;
     }
 

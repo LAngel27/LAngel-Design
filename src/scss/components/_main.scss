@@ -23,7 +23,8 @@
     }
 
     &-container{
-        max-width: 90%;
+        width: 90%;
+        max-width: 1000px;
         border: $border none;
         margin: $margin-center;
         height: 100%;

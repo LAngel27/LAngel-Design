@@ -1,0 +1,107 @@
+// work
+
+.work{
+    width: 100%;
+    border: $border;
+    background: linear-gradient(130deg, rgba(34,45,186,0.8071603641456583) 33%, rgba(79,49,82,0.8547794117647058) 53%, rgba(111,62,64,0.8687850140056023) 86%);
+
+    &-title{
+        text-align: center;
+        font-size: 3rem;
+        padding-top: 3rem;
+        color: $white;
+    }
+
+    &-container{
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1000px;
+        align-items: center;
+        justify-content: center;
+        border: $border none;
+        overflow: hidden;
+
+
+    };
+
+    // box-1
+
+    &-container__box-1{
+        border: $border none;
+        width: 50%;
+        padding: 2rem 5rem;
+        height: 100%;
+
+        &__title{
+            font-size: 2rem;
+            color: $white;
+            margin-bottom: 3rem;
+            letter-spacing: 0.5rem;
+
+        }
+
+        &__description{
+            font-size: 1.2rem;
+            color: $white;
+            line-height: 2rem;
+            letter-spacing: 0.5rem;
+            opacity: 95%;
+            margin-bottom: 3rem;
+            text-align: start;
+        }
+
+        &__button{
+            font-size: 1rem;
+            width: 18rem;
+            height: 4rem;
+            border: 1px solid $white;
+            display: block;
+            margin-left: 2.5rem;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2rem;
+            background-color: transparent;
+            text-transform: capitalize;
+        }
+
+        &__map{
+            border: $border none;
+            height: 20rem;
+            width: 100%;
+            margin-top: 3rem;
+            border-radius: 10px;
+
+        }
+    };
+
+    // box-2
+
+    &-container__box-2{
+        border: $border none;
+        width: 50%;
+        margin-left: 5rem;
+        padding: 2rem 5rem;
+
+        &__title{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: start;
+            letter-spacing: 0.5rem;
+            color: whitesmoke;
+        }
+
+        &__description{
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            text-align: start;
+            line-height: 2rem;
+            color: whitesmoke;
+            letter-spacing: 0.2rem;
+        }
+
+    };
+
+
+}
+

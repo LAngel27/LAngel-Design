@@ -1,11 +1,12 @@
 // design
 
 .design{
-    height: 85vh;
+    height: 55rem;
     border: $border none;
     position: relative;
     z-index: 1;
     margin-top: 2.5rem;
+    width: 100%;
 
     &-image{
         position: absolute;
@@ -31,19 +32,21 @@
         position: absolute;
         z-index: 3;
         border: $border none;
-        width: 100%;
-        height: 100%;
+        max-width: 100%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
         flex-wrap: wrap;
-        margin: 0 auto;
         align-items: center;
+        overflow: hidden;
     }
 
     .design-container__icon__left{
         font-size: 3.8rem;
-        border: $border none;
+        border: $border;
         align-items: center;
         display: flex;
-        padding-left: 1.5rem;
         flex-grow: 1;
     }
 
@@ -52,15 +55,14 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        border: $border none;
-        padding-right: 1.5rem;
-        flex-grow: 2;
+        border: $border ;
+        width: 20rem;
     }
 
     .design-container__user{
-        border: $border none;
+        border: $border ;
         width: 50rem;
-        flex-grow: 1;
+        flex-grow: 3;
 
     }
 
