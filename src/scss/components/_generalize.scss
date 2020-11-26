@@ -1,1 +1,37 @@
 // generalize-config
+
+// var and mixins 
+
+$border: solid red 1px;
+$margin-center: 0 auto;
+$Montserrat: 'Montserrat', sans-serif;
+
+//colors 
+
+$black: black;
+$white: white;
+
+@mixin display-flex($align) {
+    display: flex;
+    align-items: center;
+    justify-content: $align;
+}
+
+// reset
+
+*{
+    box-sizing: border-box;
+}
+
+li{display: inline-block;}
+ul{list-style: none; padding: 0;}
+img{max-width: 100%;}
+a{text-decoration: none;}
+button{cursor: pointer;}
+
+html{
+    font-size: 62.5%;
+}
+
+
+

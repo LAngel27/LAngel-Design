@@ -3,24 +3,69 @@
 .header{
     width: 100%;
     height: 20vh;
-    border: solid red 1px;
+    border: $border none;
+    overflow: hidden;
+    background: linear-gradient(130deg, rgba(34,45,186,0.6699054621848739) 45%, rgba(79,49,82,0.6155637254901961) 65%, rgba(115,69,69,0.5418942577030711) 86%);
 
     &-container{
-        border: 1px solid red;
+        border: $border none;
         width: 90%;
         margin: 0 auto;
+        height: 100%;
+        padding:  0 1rem;
+        @include display-flex(space-between)
     }
 
-    &__navbar{
-        border: 1px solid red;
+    .header-navbar{
+        border: $border none;
+        display: inline-block;
     }
 
-    &__navbar__item{
-        border: solid 1px red;
+    &-navbar__item{
+        border: $border none;
     }
 
-    &__navbar__item__link{
-        border: solid;
+    &-navbar__item__link{
+        border: $border none;
+        font-size: 1.2rem;
+        color: $white;
+        font-family: $Montserrat;
+        margin:  0 1rem;
+        letter-spacing: 0.2rem;
+        
+    }
+
+    .header-logo{
+        border: $border none;
+        margin: 0;
+        display: inline-block;
+    }
+
+    &-logo__img{
+        height: 25rem;
+    }
+
+    .header-button{
+        height: 3.5rem;
+        width: 20rem;
+        border: $border none;
+    }
+
+    &-button__btn{
+        width: 20rem;
+        height: 3.5rem;
+        text-align: center;
+        border: transparent;
+        font-size: 1.4rem;
+        font-family: $Montserrat;
+        border-radius: 10px;
+        text-transform: capitalize;
+        outline-style: none;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        color: $white;
+        background: transparent;
+        border: solid 1px $white;
     }
 
 }
