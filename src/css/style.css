@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -39,14 +41,13 @@ html {
   width: 90%;
   margin: 0 auto;
   height: 100%;
-  padding: 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .header .header-navbar {
   border: solid red 1px none;
-  display: inline-block;
+  display: inline-flex;
 }
 .header-navbar__item {
   border: solid red 1px none;
@@ -62,14 +63,13 @@ html {
 .header .header-logo {
   border: solid red 1px none;
   margin: 0;
-  display: inline-block;
 }
 .header-logo__img {
   height: 25rem;
 }
 .header .header-button {
   height: 3.5rem;
-  width: 20rem;
+  width: 22rem;
   border: solid red 1px none;
 }
 .header-button__btn {
@@ -94,6 +94,7 @@ html {
   background-image: url("../img/main-image.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   border: solid red 1px none;
   position: relative;
   z-index: 1;
@@ -157,4 +158,47 @@ html {
 .main-content__btn--black {
   color: white;
   background-color: black;
+}
+
+.service {
+  width: 100%;
+  border: solid red 1px;
+  height: 80vh;
+}
+.service__title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5rem;
+  font-size: 3rem;
+  letter-spacing: 0.5rem;
+}
+.service-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service .service-content {
+  max-width: 27%;
+  border: solid red 1px;
+  margin-top: 2rem;
+  height: 18rem;
+}
+.service-content__description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 2rem;
+  color: #2e2d2d;
+}
+.service-content__icon {
+  border: solid red 1px;
+  text-align: center;
+  display: inline-block;
+  font-size: 3.5rem;
+  width: 100%;
+  margin-bottom: 3rem;
 }

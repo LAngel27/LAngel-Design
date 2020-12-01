@@ -5,6 +5,7 @@
     background-image: url('../img/main-image.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     border: $border none;
     position: relative;
     z-index: 1;

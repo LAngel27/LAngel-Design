@@ -12,13 +12,12 @@
         width: 90%;
         margin: 0 auto;
         height: 100%;
-        padding:  0 1rem;
         @include display-flex(space-between)
     }
 
     .header-navbar{
         border: $border none;
-        display: inline-block;
+        display: inline-flex;
     }
 
     &-navbar__item{
@@ -37,8 +36,7 @@
 
     .header-logo{
         border: $border none;
-        margin: 0;
-        display: inline-block;
+        margin: 0 ;
     }
 
     &-logo__img{
@@ -47,7 +45,7 @@
 
     .header-button{
         height: 3.5rem;
-        width: 20rem;
+        width: 22rem;
         border: $border none;
     }
 
