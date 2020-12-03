@@ -25,15 +25,20 @@ $white: white;
     margin: 0;
 }
 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
 li{display: inline-block;}
 ul{list-style: none; padding: 0;}
 img{max-width: 100%;}
 a{text-decoration: none;}
 button{cursor: pointer;}
 
-html{
-    font-size: 62.5%;
-}
 
 
 

@@ -2,7 +2,8 @@
 -var titles = ['This is Circular.','Premium Service', 'Portfolio', 'work']
 -var paragraph = 'Lorem Ipsum is simply dummy text of the printing.'
 
-mixin box(clave, description)
-    article(class="service-content")
+mixin box(clave, description, title)
+    article(class='service-content')
         i(class='service-content__icon'+clave)
+        h2(class='service-content__title') #{title}
         p(class='service-content__description') #{description}

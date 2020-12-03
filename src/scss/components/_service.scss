@@ -2,14 +2,15 @@
 
 .service{
     width: 100%;
-    border: $border;
+    border: $border none;
     height: 80vh;
 
     &__title{
         text-align: center;
         font-family: $Montserrat;
         margin-top: 5rem;
-        font-size: 3rem;
+        margin-bottom: 5rem;
+        font-size: 4rem;
         letter-spacing: 0.5rem;
     }
 
@@ -21,7 +22,7 @@
 
     .service-content{
         max-width: 27%;
-        border: $border;
+        border: $border none;
         margin-top: 2rem;
         height: 18rem;
     }
@@ -32,16 +33,25 @@
         letter-spacing: 0.5rem;
         font-weight: 500;
         text-align: center;
-        line-height: 2rem;
+        line-height: 2.1rem;
         color: #2e2d2d;
     }
 
     &-content__icon{
-        border: $border;
-        text-align: center;
-        display: inline-block;
-        font-size: 3.5rem;
+        border: $border none;
+        display: block;
         width: 100%;
-        margin-bottom: 3rem;
+        font-size: 3.5rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+        color: #6B7796;
+    }
+    
+    &-content__title{
+        text-align: center;
+        font-family: $Montserrat;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.5rem;
     }
 }
