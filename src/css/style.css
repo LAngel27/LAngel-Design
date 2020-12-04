@@ -10,6 +10,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 li {
@@ -232,10 +233,10 @@ button {
   z-index: 2;
   border: solid red 1px none;
 }
-.design-image img {
+.design-image__img {
   height: 100%;
   width: 100%;
-  filter: grayscale(20%);
+  filter: grayscale(15%);
 }
 .design-container {
   display: flex;
@@ -247,50 +248,104 @@ button {
   flex-wrap: wrap;
   margin: 0 auto;
 }
-.design .design-container__icon--left {
-  font-size: 3rem;
-  flex-grow: 1;
+.design .design-container__icon__left {
+  font-size: 3.8rem;
   border: solid red 1px none;
   align-items: center;
   display: flex;
   padding-left: 1.5rem;
+  flex-grow: 1;
 }
-.design .design-container__icon--right {
-  font-size: 3rem;
-  flex-grow: 3;
+.design .design-container__icon__right {
+  font-size: 3.8rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   border: solid red 1px none;
   padding-right: 1.5rem;
+  flex-grow: 2;
 }
 .design .design-container__user {
-  border: solid red 1px;
-  flex-grow: 2;
-  padding: 4rem 10rem;
+  border: solid red 1px none;
+  padding: 4rem 5rem;
+  width: 60rem;
+  flex-grow: 1;
 }
 .design .design-container__user__img {
-  border: solid red 1px;
+  border: solid red 1px none;
   height: 12rem;
-  border-radius: 15px;
+  width: 15rem;
+  border-radius: 45px;
+  margin-top: 3rem;
 }
 .design .design-container__user__name {
-  border: solid red 1px;
+  border: solid red 1px none;
   width: 50%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  color: #080808;
 }
 .design .design-container__user__office {
-  border: solid red 1px;
+  border: solid red 1px none;
   width: 50%;
+  letter-spacing: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #080808;
+  font-weight: 600;
 }
 .design .design-container__user__line {
-  border: #06f106 1px solid;
+  border: white 1px solid;
   width: 50%;
+  margin: 1rem 0;
 }
 .design .design-container__user__description {
-  border: solid red 1px;
+  border: solid red 1px none;
   width: 50%;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 .design .design-container__user__links {
-  border: solid red 1px;
+  border: solid red 1px none;
   width: 50%;
+  margin-top: 3rem;
+}
+.design .design-container__user__links a i {
+  font-size: 2.8rem;
+  margin: 0 1.5rem;
+  color: white;
+  border: 1px solid white;
+  border-radius: 55px;
+  padding: 1rem 1rem;
+}
+
+.briefcase {
+  height: 90vh;
+  border: solid red 1px;
+}
+.briefcase-title {
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: 0.5rem;
+}
+.briefcase-container, .briefcase-container-two {
+  max-width: 90%;
+  margin: 0 auto;
+  border: solid red 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.briefcase-container .td, .briefcase-container-two .td {
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+  padding-top: 2rem;
+}
+.briefcase-container-two {
+  height: 77%;
 }
