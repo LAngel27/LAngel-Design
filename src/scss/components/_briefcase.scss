@@ -2,7 +2,7 @@
 
 .briefcase{
     height: 90vh;
-    border: $border;
+    border: $border none;
 
     &-title{
         text-align: center;
@@ -11,24 +11,87 @@
     }
     
     &-container{
-        max-width: 90%;
-        margin: 0 auto;
-        border: $border  ;
+        width: 90%;
+        margin: 3rem auto;
+        border: $border none;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        overflow: hidden;
     }
 
     &-container .td{
         font-weight: 500;
         text-transform: capitalize;
         letter-spacing: 0.3rem;
-        padding-top: 2rem;
     }
 
 
-    &-container-two{
-        height: 77%;
-        @extend .briefcase-container
+    .briefcase-container-two{
+        height: 80%;
+        width: 90%;
+        margin: 2rem auto 0 auto;
+        border: $border none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+        
+    }
+
+    &-container-two__item{
+        height: 100%;
+        border: $border none;
+        width: 50%;
+    }
+
+    
+    &-container-two__item__img{
+        height: 100%;
+        border: $border none;
+    }
+
+    &-container-two__item-2{
+        width: 50%;
+        border: $border none;
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+
+    
+    &-container-two__item-2 div{
+        border: $border none;
+        margin: 1rem 0;
+        
+    }
+
+    &-container-two__item-2 div i{
+        border: $border none;
+        margin: 1rem 2rem;
+        font-size: 1.5rem;
+        color: gray;
+        
+    }
+
+    &-container-two__item-2 div span{
+        border: $border ;
+        font-size: 3rem;
+        color: gray;
+        
+    }
+
+    &-container-two__item-2 h2{
+        border: $border none;
+        font-size: 2rem;
+    }
+
+    &-container-two__item-2 p{
+        border: $border none;
+        font-size: 1.3rem;
+        letter-spacing: 0.5rem;
+        line-height: 2rem;
     }
 }

@@ -4,6 +4,7 @@
     width: 100%;
     border: $border none;
     height: 80vh;
+    margin-bottom: 4rem;
 
     &__title{
         text-align: center;
@@ -16,24 +17,27 @@
 
     &-container{
         width: 90%;
-        margin: 0 auto;
+        margin: 2rem auto;
+        height: 40%;
         @include display-flex(space-between)
+        
     }
 
     .service-content{
-        max-width: 27%;
-        border: $border none;
-        margin-top: 2rem;
+        width: 27%;
+        border: $border none ;
+        overflow: hidden;
         height: 18rem;
+
     }
 
     &-content__description{
         font-family: $Montserrat;
         font-size: 1.2rem;
         letter-spacing: 0.5rem;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
-        line-height: 2.1rem;
+        line-height: 2rem;
         color: #2e2d2d;
     }
 
@@ -41,8 +45,8 @@
         border: $border none;
         display: block;
         width: 100%;
-        font-size: 3.5rem;
-        margin-bottom: 2.5rem;
+        font-size: 3rem;
+        margin-bottom: 2rem;
         text-align: center;
         color: #6B7796;
     }
@@ -50,8 +54,9 @@
     &-content__title{
         text-align: center;
         font-family: $Montserrat;
-        margin-bottom: 2rem;
-        font-weight: 600;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
         letter-spacing: 0.5rem;
+        font-size: 1.4rem;
     }
 }
