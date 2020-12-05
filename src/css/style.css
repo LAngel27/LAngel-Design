@@ -247,6 +247,7 @@ button {
   height: 100%;
   flex-wrap: wrap;
   margin: 0 auto;
+  align-items: center;
 }
 .design .design-container__icon__left {
   font-size: 3.8rem;
