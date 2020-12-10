@@ -1,0 +1,57 @@
+// footer
+
+.footer{
+    border: $border none;
+    background-color: #454D9B;
+
+    &-container{
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        padding: 2rem 1rem;
+        flex-wrap: wrap;
+        border: $border none;
+        @include display-flex(space-between)
+    }
+
+    &-container-box__img{
+        width: 15rem;
+        border: $border none;
+    }
+
+    &-container-box__item{
+        display: inline-block;
+        margin: 0 1rem;
+        color: $white;
+        font-size: 1.5rem;
+        border: $border none;
+    }
+
+    &-container-box__btn{
+        width: 10rem;
+        height: 3rem;
+        text-align: center;
+        border: transparent;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        text-transform: capitalize;
+        outline-style: none;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        color: $white;
+        background: transparent;
+        border: solid 1px $white;
+    }
+    &-container-two{
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        padding: 1rem 0;
+    }
+
+    &-container-two__end{
+        font-size: 1.4rem;
+        text-align: center;
+        color: $white;
+    }
+}

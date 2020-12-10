@@ -1,7 +1,6 @@
 // header
 
 .header{
-    width: 100%;
     padding: 6rem 0;
     height: 6rem;
     border: $border none;
@@ -31,7 +30,7 @@
         font-size: 1.3rem;
         color: $white;
         font-family: $Montserrat;
-        margin:  0 1rem;
+        margin:  0 0.5rem;
         
     }
 
@@ -41,7 +40,8 @@
     }
 
     &-logo__img{
-        height: 21rem;
+        height: 15rem;
+        object-fit: cover;
     }
 
     .header-button{
@@ -51,12 +51,11 @@
     }
 
     &-button__btn{
-        width: 20rem;
-        height: 3.5rem;
+        width: 13rem;
+        height: 3rem;
         text-align: center;
         border: transparent;
         font-size: 1.4rem;
-        font-family: $Montserrat;
         border-radius: 10px;
         text-transform: capitalize;
         outline-style: none;

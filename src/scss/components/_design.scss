@@ -44,7 +44,7 @@
 
     .design-container__icon__left{
         font-size: 3.8rem;
-        border: $border;
+        border: $border none;
         align-items: center;
         display: flex;
         flex-grow: 1;
@@ -55,14 +55,13 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        border: $border ;
-        width: 20rem;
+        border: $border none;
     }
 
     .design-container__user{
-        border: $border ;
+        border: $border none;
         width: 50rem;
-        flex-grow: 3;
+        flex-grow: 2;
 
     }
 

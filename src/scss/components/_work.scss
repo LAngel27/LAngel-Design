@@ -2,14 +2,15 @@
 
 .work{
     width: 100%;
-    border: $border;
+    border: $border none;
     background: linear-gradient(130deg, rgba(34,45,186,0.8071603641456583) 33%, rgba(79,49,82,0.8547794117647058) 53%, rgba(111,62,64,0.8687850140056023) 86%);
 
     &-title{
         text-align: center;
         font-size: 3rem;
-        padding-top: 3rem;
+        padding-top: 4rem;
         color: $white;
+        margin-top: 0;
     }
 
     &-container{
@@ -98,6 +99,7 @@
             line-height: 2rem;
             color: whitesmoke;
             letter-spacing: 0.2rem;
+            opacity: 95%;
         }
 
     };
