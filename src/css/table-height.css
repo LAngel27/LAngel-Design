@@ -1,0 +1,21 @@
+@media screen and (max-height: 400px){
+
+    .main{
+        height: 110vh;;
+    }
+}
+
+
+@media screen and (min-height: 700px){
+    .main{
+        height: 75vh;
+    }
+
+}
+
+@media screen and (min-height: 1000px){
+    .main{
+        height: 65vh;
+    }
+
+}

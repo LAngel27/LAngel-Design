@@ -69,3 +69,27 @@
 .briefcase-container-two__item-2 p {
   font-size: 1rem;
 }
+
+.briefcase-container-two__item-2 div .fa {
+  font-size: 1.1rem;
+}
+
+.briefcase-container-two__item-2 div .fo {
+  font-size: 1.1rem;
+}
+
+.work-title {
+  font-size: 2.5rem;
+}
+
+.behind-title {
+  font-size: 2.5rem;
+}
+
+.behind-container-box1 .box1-container__description {
+  font-size: 1rem;
+}
+
+.behind-container-box2__description {
+  font-size: 1rem;
+}
