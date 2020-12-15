@@ -5,7 +5,11 @@
     height: 6rem;
     border: $border none;
     overflow: hidden;
-    background: linear-gradient(130deg, rgba(34,45,186,0.6699054621848739) 45%, rgba(79,49,82,0.6155637254901961) 65%, rgba(115,69,69,0.5418942577030711) 86%);
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+    background: #454D9B;
 
     &-container{
         border: $border none;
@@ -16,9 +20,23 @@
         @include display-flex(space-between)
     }
 
+    .header-container__hamburger{
+        color: $white;
+        font-size: 1.8rem;
+        display: none;
+    }
+
     .header-navbar{
         border: $border none;
         display: inline-flex;
+    }
+
+    &-navbar__img{
+        display: none;
+    }
+
+    &-navbar__button{
+        display: none;
     }
 
     &-navbar__item{
@@ -45,14 +63,14 @@
     }
 
     .header-button{
-        height: 3.5rem;
-        width: 15rem;
+        height: 3rem;
+        width: 14rem;
         border: $border none;
     }
 
     &-button__btn{
-        width: 13rem;
-        height: 3rem;
+        width: 100%;
+        height: 100%;
         text-align: center;
         border: transparent;
         font-size: 1.4rem;

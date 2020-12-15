@@ -1,0 +1,53 @@
+
+.work-container{
+    display: block;
+}
+
+.work-container__box-1__title{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+
+}
+.work-container__box-1__description{
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    text-align: justify;
+}
+
+.work-container__box-1{
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+.work-container__box-1__button{
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.work-container__box-2{
+    margin-left: 0;
+    padding: 4rem 2rem;
+    @extend .work-container__box-1
+
+}
+
+.work-container__box-2__title{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}
+.work-container__box-2__description{
+    font-size: 1.1rem;
+    text-align: justify;
+    letter-spacing: 0.2rem;
+    margin: 4rem 0;
+}
+
+
+
+.work-container__box-2__title{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    text-align: center;
+}

@@ -10,16 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/tablet.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="src/css/mobile-l.css" media="screen and (max-width: 425px)">
     <script src="https://kit.fontawesome.com/b14373d3aa.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="header" id="init">
-      <nav class="header-container">
-        <ul class="header-navbar">
+      <nav class="header-container"><i class="fas fa-bars header-container__hamburger"></i>
+        <ul class="header-navbar"><img class="header-navbar__img" src="src/img/logo-header.png" alt="logo">
           <li class="header-navbar__item"><a class="header-navbar__item__link" href="#">Service</a></li>
           <li class="header-navbar__item"><a class="header-navbar__item__link" href="#">Team</a></li>
           <li class="header-navbar__item"><a class="header-navbar__item__link" href="#">Portafolio</a></li>
           <li class="header-navbar__item"><a class="header-navbar__item__link" href="#">Work</a></li>
+          <div class="header-navbar__button">
+            <button class="header-navbar__button__btn" type="submit">lorem </button>
+          </div>
         </ul>
         <figure class="header-logo"><img class="header-logo__img" src="src/img/logo-header.png" alt="logo"></figure>
         <div class="header-button">
@@ -138,9 +143,11 @@
             </div>
           </div>
           <div class="behind-container-box2"><img class="behind-container-box2__img" src="src/img/main-image.jpg" alt="">
-            <p class="behind-container-box2__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <div class="behind-container-box2--two"><img class="behind-container-box2--two__img" src="src/img/user.jpg" alt="">
-              <p class="behind-container-box2--two__description">lorem ipsum</p>
+            <div>
+              <p class="behind-container-box2__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="behind-container-box2--two"><img class="behind-container-box2--two__img" src="src/img/user.jpg" alt="">
+                <p class="behind-container-box2--two__description">lorem ipsum</p>
+              </div>
             </div>
           </div>
         </div>

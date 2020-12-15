@@ -17,6 +17,7 @@ $white: white;
     justify-content: $align;
 }
 
+
 // reset
 
 *{
@@ -37,7 +38,7 @@ body{
 li{display: inline-block;}
 ul{list-style: none; padding: 0;}
 img{max-width: 100%;}
-a{text-decoration: none;}
+a{text-decoration: none; cursor: pointer;}
 button{cursor: pointer;}
 
 

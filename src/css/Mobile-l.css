@@ -1,0 +1,71 @@
+.header .header-button__btn {
+  display: none;
+}
+
+.main-content__title {
+  font-size: 3rem;
+}
+
+.main-content__description {
+  font-size: 1.2rem;
+}
+
+.main-content__btn {
+  width: 14rem;
+  font-size: 1.2rem;
+}
+
+.main-content__btn--black {
+  width: 14rem;
+  font-size: 1.2rem;
+}
+
+.service__title {
+  font-size: 2.5rem;
+}
+
+.service .service-content__title {
+  font-size: 1.5rem;
+}
+
+.service .service-content__description {
+  font-size: 1rem;
+}
+
+.design .design-container__user__img {
+  height: 8rem;
+  width: 8rem;
+}
+
+.design .design-container__user__office {
+  font-size: 1.1rem;
+}
+
+.design .design-container__user__description {
+  font-size: 1rem;
+  padding: 0 4.5rem;
+}
+
+.design .design-container__user__links a i {
+  font-size: 1.3rem;
+}
+
+.design .design-container__icon__left {
+  font-size: 2.5rem;
+}
+
+.design .design-container__icon__right {
+  font-size: 2.5rem;
+}
+
+.briefcase-title {
+  font-size: 2.5rem;
+}
+
+.briefcase-container-two__item-2 h2 {
+  font-size: 1.2rem;
+}
+
+.briefcase-container-two__item-2 p {
+  font-size: 1rem;
+}
