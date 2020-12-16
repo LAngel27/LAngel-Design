@@ -1,0 +1,96 @@
+.header .header-logo__img{
+    width: 12rem;
+}
+
+.main .main-content__title{
+    font-size: 2.5rem;
+}
+
+.main .main-content__description{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.main .main-content__btn{
+    font-size: 1.1rem;
+    width: 13rem;
+    height: 3rem;
+}
+
+.main .main-content__btn--black{
+    font-size: 1.1rem;
+    width: 13rem;
+    height: 3rem;
+}
+
+.service__title{
+    font-size: 2rem;
+}
+
+
+.service .service-content__description{
+    font-size: 0.9rem;
+}
+
+
+
+.design .design-container__icon__right {
+    font-size: 2.2rem;
+}
+
+
+.design .design-container__icon__left{
+    font-size: 2.2rem;
+}
+
+
+.design .design-container__user__description {
+    font-size: 0.9rem;
+}
+
+.briefcase-title {
+    font-size: 2rem;
+}
+
+.briefcase-container__list {
+    font-size: 1rem;
+}
+
+
+.work-title {
+    font-size: 2rem;
+}
+
+.work-container__box-2__description{
+    font-size: 1rem;
+}
+
+
+.behind-title{
+    font-size: 2rem;
+}
+
+
+.behind-container-box1 .box1-container__description{
+    font-size: .8rem;
+}
+
+
+.behind-container-box1 .box1-container__description--opacity {
+    font-size: 1rem;
+}
+
+.behind-container-box2__description {
+    font-size: .8rem;
+}
+
+
+.behind-container-box2--two{
+    margin-top: 4.5rem;
+}
+
+
+.behind-container-box2--two__description{
+    font-size: .8rem;
+}
+
