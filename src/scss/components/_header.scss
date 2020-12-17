@@ -26,6 +26,22 @@
         display: none;
     }
 
+    .header-container__hamburger{
+        animation-name: l;
+        animation-duration: 3s;
+        animation-delay: 2s;
+    }
+
+    @keyframes l {
+        0%{
+            transform: translateY(1000px);
+        }
+
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
     .header-navbar{
         border: $border none;
         display: inline-flex;

@@ -49,6 +49,21 @@
         margin-bottom: 2rem;
         text-align: center;
         color: #6B7796;
+        animation-name: LAngel;
+        animation-duration: 4.5s;
+        animation-iteration-count: infinite;
+        animation-delay: 3s;
+
+    }
+
+    @keyframes LAngel {
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+            color: #454D9B;;
+        }
     }
     
     &-content__title{
