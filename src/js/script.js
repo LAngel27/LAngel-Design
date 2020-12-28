@@ -1,29 +1,36 @@
 
-const $NAVBAR = document.querySelector('.header-navbar')
+const $navbar = document.querySelector('.header-navbar')
+const $header__btn = document.querySelector('.header-button')
+const $image__design = document.querySelector('.design-image__img')
+const $icon__left = document.getElementById('icon-left')
+const $icon__right = document.getElementById('icon-right')
 
-function toggle($element = $NAVBAR) {
+
+
+
+
+
+
+
+
+
+$header__btn.addEventListener('click', () =>{
+    $header__btn.classList.toggle('header-button-active') 
+    
+});
+
+
+
+function toggle($element = $navbar) {
     $element.classList.toggle('header-navbar-active')
-}
+};
 
 
-// function replace() {
-//     return(
-//         '<i class="fas fa-times header-container__hamburger"></i>'
-//     )
-// }
 
-// function html(fn) {
-//     let $document = document.implementation.createHTMLDocument()
-//     debugger
-//     $document.body.innerHTML = fn
-//     return $document.body.children[0]
-// }
-
-// html(replace)
 
 const $ICON = document.getElementById('menu-hamburger').addEventListener('click', () => {
     toggle()
-})
+});
 
 
 
