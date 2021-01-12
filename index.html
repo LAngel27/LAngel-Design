@@ -7,13 +7,15 @@
     <meta name="robots" content="index,follow">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Design </title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/table-height.css">
     <link rel="stylesheet" href="src/css/tablet.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="src/css/mobile.css" media="screen and (max-width: 425px)">
     <link rel="stylesheet" href="src/css/mobile-m.css" media="screen and (max-width: 375px)">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" />
   </head>
   <body>
     <header class="header" id="init">
@@ -36,7 +38,7 @@
     <main class="main" id="hero">
       <div class="main-container">
         <div class="main-content">
-          <h1 class="main-content__title">This is LAngel.</h1>
+          <h1 class="main-content__title animated bounce">This is LAngel.</h1>
           <p class="main-content__description">Lorem Ipsum is simply dummy text of the printing.</p>
           <button class="main-content__btn" type="submit">lear more</button>
           <button class="main-content__btn--black" type="submit">watch video <i class=" main-content__btn--icon fas fa-arrow-right"></i></button>
@@ -77,8 +79,9 @@
     <section class="design" id="me">
       <figure class="design-image"><img class="design-image__img" src="src/img/cover.jpg" height="80"><img class="design-image__img--two" src="src/img/cover.jpg" height="80"></figure>
       <div class="design-container">
-        <div class="design-container__user"><img class="design-container__user__img" src="src/img/user.jpg" alt="image">
-          <h1 class="design-container__user__name">Adrian Podolski</h1>
+        <div class="design-container__user">
+          <img class="design-container__user__img" src="src/img/user.jpg" alt="image">
+          <h1 class="design-container__user__name ">Adrian Podolski</h1>
           <h2 class="design-container__user__office">Frontend developer</h2>
           <li class="design-container__user__line"></li>
           <p class="design-container__user__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -173,6 +176,7 @@
       </div>
     </footer>
   </body>
-  <script src="src/js/script.js"></script>
+  <script src="src/js/script.js" type="module"></script>
+  <script src="src/js/module.js" type="module"></script>
   <script src="https://kit.fontawesome.com/b14373d3aa.js" crossorigin="anonymous"></script>
 </html>

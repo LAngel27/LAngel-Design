@@ -1,0 +1,21 @@
+{
+  "name": "langel-design",
+  "version": "1.0.0",
+  "description": "my one project ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LAngel27/LAngel-Design.git"
+  },
+  "author": "LAngel <luiscartaya653@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LAngel27/LAngel-Design/issues"
+  },
+  "homepage": "https://github.com/LAngel27/LAngel-Design#readme",
+  "dependencies": {
+    "animate.css": "4.1.1"
+  }
+}
