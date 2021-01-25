@@ -10,6 +10,7 @@
     bottom: 0;
     z-index: 200;
     background: #454D9B;
+    display: none;
 
     &-container{
         border: $border none;
@@ -34,27 +35,6 @@
         animation-delay: 2s;
     }
 
-    @keyframes l {
-        0%{
-            transform: translateY(1200px);
-        }
-
-        50%{
-            transform: translateY(700px);
-        }
-
-        80%{
-            transform: rotate(-4500deg);
-        }
-
-        90%{
-            transform: scale( 1 , 1);
-        }
-
-        100%{
-            transform:  translateY(0px);
-        }
-    }
 
     .header-navbar{
         border: $border none;
@@ -88,19 +68,6 @@
         animation-name: dev;
         animation-duration: 3s;
         animation-timing-function: cubic-bezier(.3,-0.27,.79,1.25);
-    }
-
-    @keyframes dev {
-        0%{
-            transform: rotateZ(-600deg) scale(0);
-        }
-
-        80%{
-            transform: rotate(-100px);
-        }
-        100%{
-            transform: rotate(0) scale(1);
-        }
     }
 
     &-logo__img{
@@ -139,14 +106,55 @@
 
     @keyframes reboot {
         0%{
+            transform: scale(0);
+        }
+
+        100%{
             transform: scale(1);
+        }
+    }
+
+    @keyframes dev {
+        0%{
+            transform: rotateZ(-600deg) scale(0);
+        }
+
+        80%{
+            transform: rotate(-100px);
+        }
+        100%{
+            transform: rotate(0) scale(1);
+        }
+    }
+
+    @keyframes l {
+        0%{
+            transform: translateY(1200px);
         }
 
         50%{
-            transform: scale(1.15);
+            transform: translateY(700px);
+        }
+
+        80%{
+            transform: rotate(-4500deg);
+        }
+
+        90%{
+            transform: scale( 1 , 1);
+        }
+
+        100%{
+            transform:  translateY(0px);
+        }
+    }
+
+    @keyframes left {
+        0%{
+            transform: translateX(-100%);
         }
         100%{
-            transform: scale(1.1);
+            transform: translateX(0);
         }
     }
 
