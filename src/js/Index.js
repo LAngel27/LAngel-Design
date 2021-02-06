@@ -18,14 +18,14 @@ addEventListener('scroll', ev => {
 
 
     let div = index / 12
-    let result = parseInt(div.toFixed(0))
-    console.log(result)
-
-    for (let i = result; i < 10000; i++) {
-        if( i > 0){
-            
+    let i = parseInt(div.toFixed(0))
+        
+        if(i >= 12){
+            $title.style.animation = 'left 2s forwards'
+            $title.style.display = 'block'
         }
-    }
+
+    
 });
 
 
